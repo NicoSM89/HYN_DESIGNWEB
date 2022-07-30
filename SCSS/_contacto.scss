@@ -1,0 +1,36 @@
+.h_2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contacto_item {
+    justify-content: center;
+}
+
+@media (min-width: 1200px){
+    .contacto_item {
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    margin-left: 0rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .contacto_item {
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    margin-left: 0rem;
+    }
+}
+
+@media (max-width: 720px){
+    .contacto_item {
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    margin-left: 0rem;
+    }
+}
